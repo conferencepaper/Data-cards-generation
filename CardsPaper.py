@@ -3,10 +3,10 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import os
-from Untils_function.Stats import plot_histogram_alphanumeric
-from Untils_function.Prompt_engineering import create_prompt_description, load_model, generate_fairness_prompt
-from Untils_function.Save_models import log_study_runV3
-from Untils_function.Prompt_engineeringV1 import create_prompt_description_target
+from utils.Stats import plot_histogram_alphanumeric
+from utils.Prompt_engineering import create_prompt_description, load_model, generate_fairness_prompt
+from utils.Save_models import log_study_runV3
+from utils.Prompt_engineeringV1 import create_prompt_description_target
 from ast import literal_eval
 import os
 
